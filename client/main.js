@@ -1,1 +1,1 @@
-console.log(`Greetings from ${module.id}!`);
+import '/imports/startup/client';
