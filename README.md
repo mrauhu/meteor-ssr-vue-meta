@@ -20,6 +20,25 @@ git clone --recurse-submodules https://github.com/mrauhu/meteor-ssr-vue-meta
 cd meteor-ssr-vue-meta
 ```
 
+## Select the tag
+
+### `vue-meta@2.3.3` — works
+
+```sh
+git checkout vue-meta@2.3.3
+npm install
+```
+
+### `vue-meta@2.3.4` — broken
+
+```sh
+git checkout vue-meta@2.3.4
+npm install
+```
+
+On the first server reload (after change any `*.js` or `*.vue` file) get the 500 error with message:
+`document is not defined`
+
 ## Usage
 
 ```
