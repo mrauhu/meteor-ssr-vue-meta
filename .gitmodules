@@ -1,3 +1,6 @@
 [submodule "packages/meteor-fast-render"]
 	path = packages/meteor-fast-render
 	url = https://github.com/mrauhu/meteor-fast-render
+[submodule "packages/vue-ssr"]
+	path = packages/vue-ssr
+	url = https://github.com/mrauhu/vue-ssr
