@@ -26,14 +26,14 @@ cd meteor-ssr-vue-meta
 
 ```sh
 git checkout vue-meta@2.3.3
-npm install
+meteor npm install
 ```
 
 ### `vue-meta@2.3.4` — broken
 
 ```sh
 git checkout vue-meta@2.3.4
-npm install
+meteor npm install
 ```
 
 On the first server reload (after change any `*.js` or `*.vue` file) get the 500 error with message:
